@@ -2,37 +2,25 @@
 // num = toString(num);
 // console.log(typeof(num));
 
-
-
 // var num = 2.5598;
 // console.log(num.toFixed(1));
 //console.log(num.toPrecision(5));
 
-
-
 // var text = "Bangladesh";
 // document.write(text.charAt(3));
-
-
 
 // var text1 = "Bangladesh";
 // text2 = "is a beautiful country";
 // document.write(text1.concat(text2));
 
-
-
 // var text1 = "Bangladesh";
 // var text = text1.slice(0,3);
 // document.write(text);
-
-
 
 // var firstName = prompt("Your First Name: ");
 // var lastName = prompt("Your Last Name:")
 // var fullName = firstName + lastName;
 // console.log("My Name is "  + fullName.toUpperCase() +  " and Number of character " + fullName.length);
-
-
 
 // Mathmattics Operation
 // var num1 = prompt("Enter 1st Number :");
@@ -50,32 +38,22 @@
 // var results = num1 % num2;
 // document.write(num1 + " % " +num2 + " = " + results + "<br/>");
 
-
-
 // var base =parseFloat(prompt("Enter Base"));
 // var height = parseFloat(prompt("Enter Height"));
 // var triangle = (base * height) / 2;
 // document.write("Area = " + triangle);
 
-
-
 // var farn = parseFloat(prompt("Enter Fahrenheight"));
 // var cels = (farn-32) * (5/9);
 // document.write("Celcius = " + cels+"C");
-
-
 
 // var hrs = parseFloat(prompt("Enter Hour"));
 // var min = hrs * 60;
 // document.write(hrs +" Hours = " + min + " Minutes");
 
-
-
 // var min = parseFloat(prompt("Enter Minute"));
 // var sec = min * 60;
 // document.write(min +" Minute = " + sec + " Seconds");
-
-
 
 //Grade System
 // var num = prompt("Enter Your Marks");
@@ -96,8 +74,6 @@
 // else
 // document.write("Your Grade is " + "(" + num + ")" + " = Fail ");
 
-
-
 //Large Number
 // var num1 = prompt("Enter Number 1 :");
 // var num2 = prompt("Enter Number 2 :");
@@ -112,8 +88,6 @@
 // else
 // document.write("Large Number = " + num3);
 
-
-
 //Vowel Consonent
 // var letter = prompt ("Enter a Letter : ");
 
@@ -125,8 +99,6 @@
 // else
 // document.write("Consonent");
 
-
-
 //0 to Zero
 // var digit = prompt("Enter your digit : ")
 // digit = digit.toLowerCase();
@@ -135,8 +107,8 @@
 //         document.write("Zero");
 //         break;
 //     case "1":
-//         document.write("One");  
-//         break; 
+//         document.write("One");
+//         break;
 //     case "2":
 //         document.write("Two");
 //         break;
@@ -162,10 +134,8 @@
 //         document.write("Nine");
 //         break;
 //     default:
-//         document.write("Not a digit")         
+//         document.write("Not a digit")
 // }
-
-
 
 //Vowel Consonant
 // var letter = prompt ("Enter a Letter : ");
@@ -183,15 +153,11 @@
 //    document.write("Consonant");
 // }
 
-
-
 //for loop 1 to 100 setial
-// for (var x = 1; x <= 100; x = x + 1) 
+// for (var x = 1; x <= 100; x = x + 1)
 // {
 //     document.write(" " + x );
 // }
-
-
 
 //while loop 1 to 100 serial
 // var x = 1;
@@ -201,14 +167,11 @@
 //     x++
 // }
 
-
-
 //for loop 100 to 1 serial
-// for (var x = 100; x>= 1; x = x - 1) 
+// for (var x = 100; x>= 1; x = x - 1)
 // {
 //     document.write(" " + x );
 // }
-
 
 //while loop 100 to 1 serial
 // var x = 100;
@@ -217,8 +180,6 @@
 //     document.write(" " + x);
 //     x = x - 1
 // }
-
-
 
 //for loop m to n sum
 // var m = parseInt(prompt("Enter 1st Number : "));
@@ -229,8 +190,6 @@
 // sum = sum + x
 // }
 // document.write("sum = " + sum);
-
-
 
 //while loop m to n sum
 // var m = parseInt(prompt("Enter First Number : "));
@@ -244,16 +203,12 @@
 // }
 // document.write("sum = " + sum);
 
-
-
 //do while loop
 // var x = 1;
 // do{
 //     document.write(" " + x);
 //     x = x + 1
 // } while(x <=10)
-
-
 
 // for (x=1; x<=100; x++){
 //     document.write(" " + x);
@@ -262,16 +217,12 @@
 //     }
 // }
 
-
-
 // for (x=1; x<=100; x++){
 //     if(x % 2!=0){
 //         continue;
 //     }
 //     document.write(" " + x);
 // }
-
-
 
 // for (x=1; x<=100; x++){
 //     if(x % 2==0){
@@ -280,13 +231,9 @@
 //     document.write(" " + x);
 // }
 
-
-
 // var number = prompt("Enter your number : ")
 // var results = number>0 ? ("positive") : number<0 ?("negative"): "zero";
 // document.write(results);
-
-
 
 // function square(num1, num2){
 //     var results = num1 * num2
@@ -297,8 +244,6 @@
 //     prompt("Enter number 2")
 // );
 
-
-
 // function addition(num1, num2){
 //     var results = num1 + num2
 //     document.write("sum = " + results + "<br/>");
@@ -307,8 +252,6 @@
 //     parseInt(prompt("Enter number 1")),
 //     parseInt(prompt("Enter number 2"))
 // );
-
-
 
 // function subtraction(num1, num2){
 //     var results = num1 - num2
@@ -319,15 +262,11 @@
 //     parseInt(prompt("Enter number 2"))
 // );
 
-
-
 //Function Expression
 // var display2 = function displayMessage(msg){
 //     document.write(msg);
 // };
 // display2("hi");
-
-
 
 //Array push & pop by alphabet sort
 //var names = ["Ruhul", "Amin", "Sathy", "Armina"];
@@ -338,8 +277,6 @@
 //console.log(names.length);
 //console.log(shortedNames);
 
-
-
 //Array by numbers sort
 // var numbers = [4,3,7,5,6,9,8];
 // numbers.sort(function(a,b){
@@ -347,16 +284,12 @@
 // });
 // console.log(numbers);
 
-
-
 //Array concat
 // var country1 = ["BD", "IND"];
 // var country2 = ["Nepal", "Bhutan"];
 // var country = country1.concat(country2);
 
 // console.log(country)
-
-
 
 //Array sum input by user
 // var num = new Array();
@@ -374,23 +307,17 @@
 
 // console.log("sum = " + sum);
 
-
-
 //Array adding splice
 // var names = ["Ruhul", "Amin", "Sathy", "Armina"];
 
 // names.splice(2,0, "Karim", "Rahim");
 // console.log(names);
 
-
-
 //Array cutting splice
 // var names = ["Ruhul", "Amin", "Sathy", "Armina"];
 
 // names.splice(2,1);
 // console.log(names);
-
-
 
 //1D Array
 // console.clear();
@@ -407,8 +334,6 @@
 // let scores = [28,34,3,5,90,40,34];
 // let maxScore = highestScore(scores);
 // console.log(maxScore);
-
-
 
 //2D Array
 // console.clear();
@@ -434,8 +359,6 @@
 // let name = highestRunScorer(playerInfo);
 // console.log(name);
 
-
-
 // Object Constructor
 // function Student(name,age,cgpa,lang){
 //     this.name = name;
@@ -456,8 +379,6 @@
 // student1.display();
 // student2.display();
 // student3.display();
-
-
 
 //GuessNumber
 // var numOfWon = 0;
@@ -481,8 +402,6 @@
 // document.write("Number of won = " + numOfWon + "<br>");
 // document.write("Number of lost = " + numOfLost + "<br>");
 
-
-
 // var mypara = document.querySelector("#myImage")
 // function myPicture1 (){
 //     mypara.src = "images/r1.jpg";
@@ -492,13 +411,13 @@
 //     mypara.src = "images/r2.jpg";
 // }
 
-
-
 //image slider
 //image slider html code
-{/* <button onclick="prev()">Prev</button>
+{
+  /* <button onclick="prev()">Prev</button>
     <img src="images/r1.jpg" alt="" height="300" width="300">
-    <button onclick="next()">Next</button> */}
+    <button onclick="next()">Next</button> */
+}
 
 // var photos = ["images/r1.jpg","images/r2.jpg","images/r3.jpg","images/r4.jpg"];
 // var imageTag = document.querySelector("img");
@@ -526,13 +445,13 @@
 //     imageTag.src = photos[count];
 // }
 
-
-
 //Dynamicaly css add and remove
 // html code
-{/* <p id="para">This is a paragraph</p>
+{
+  /* <p id="para">This is a paragraph</p>
     <button onclick="addStyle()">add style</button>
-    <button onclick="removeStyle()">remove style</button> */}
+    <button onclick="removeStyle()">remove style</button> */
+}
 
 //css code
 // .para-style{
@@ -541,7 +460,7 @@
 //     font-weight: bold;
 //     font-style: italic;
 //     background-color: yellow;
-// }    
+// }
 
 // var myVar = document.querySelector("#para");
 // function addStyle(){
@@ -552,29 +471,25 @@
 //    myVar.classList.remove("para-style");
 // }
 
-
-
 //event listener
 // var myVar = document.querySelector("h1")
 
 // myVar.addEventListener("mouseover",function(){
-    
+
 //     myVar.classList.add("my-style");
 // });
 
 // myVar.addEventListener("mouseout",function(){
-    
+
 //     myVar.classList.remove("my-style");
 // });
 
-
-
 //event listener multiple elements
 //html code
-    // <h1>You have not click any button</h1>
-    // <button class="myButton">button 1</button>
-    // <button class="myButton">button 2</button>
-    // <button class="myButton">button 3</button>
+// <h1>You have not click any button</h1>
+// <button class="myButton">button 1</button>
+// <button class="myButton">button 2</button>
+// <button class="myButton">button 3</button>
 
 // for(var i = 0; i<3; i++){
 //     document.querySelectorAll(".myButton")[i].addEventListener("click",function(){
@@ -583,13 +498,13 @@
 //     });
 // };
 
-
-
 //play adio with animation
 //html code
-{/* <button class="myButton a">a</button>
+{
+  /* <button class="myButton a">a</button>
     <button class="myButton b">b</button>
-    <button class="myButton c">c</button> */}
+    <button class="myButton c">c</button> */
+}
 
 //css code
 // .myButton{
@@ -622,15 +537,15 @@
 //             var audio = new Audio ("audio/a.mp3");
 //             audio.play();
 //             break;
-        
+
 //         case "b":
 //             var audio = new Audio ("audio/b.mp3");
-//             audio.play(); 
+//             audio.play();
 //             break;
 //         case "c":
 //             var audio = new Audio ("audio/c.mp3");
-//             audio.play();  
-//             break; 
+//             audio.play();
+//             break;
 //     }
 
 // }
@@ -646,21 +561,19 @@
 
 // }
 
-
-
 //key press listener
-{/* <textarea cols="30" rows="10"></textarea>
-<p>demo</p> */}
+{
+  /* <textarea cols="30" rows="10"></textarea>
+<p>demo</p> */
+}
 
 // var count = 0;
 // document.querySelector("textarea").addEventListener("keypress", function(event){
 //   count++;
 //   var text = event.key;
-  
+
 //   document.querySelector("p").innerHTML = "Your character is = " + count;
 // });
-
-
 
 //change dom event (input)
 //html code
@@ -672,7 +585,6 @@
 // const input = document.querySelector("input[name=name]");
 // input.addEventListener("change", changeHandler)
 
-
 // function changeHandler (e){
 //     //console.log(e);
 //     //console.log(e.type);
@@ -683,11 +595,10 @@
 
 // }
 
-
-
 //change dom event (checkbox)
 // html code
-{/* <div>
+{
+  /* <div>
       <h3>Programing Language</h3>
         <label for="program">C
         <input type="checkbox" name="program" value="c">
@@ -696,7 +607,8 @@
         <input type="checkbox" name="program" value="java">
         </label>
    </div>
-<br> */}
+<br> */
+}
 
 // const programs = document.querySelectorAll("input[name=program]");
 // Array.from(programs).map((program) =>{
@@ -709,16 +621,16 @@
 //     }
 // }
 
-
-
 //change dom event (select)
 // html code
-{/* <label for="department">Department: </label>
+{
+  /* <label for="department">Department: </label>
    <select name="department" id="department">
      <option value="eee">EEE</option>
      <option value="cse">CSE</option>
      <option value="me">ME</option>
-   </select> */}
+   </select> */
+}
 
 // const department = document.querySelector("#department");
 // department.addEventListener("change", handleDepartment);
@@ -727,10 +639,10 @@
 //     console.log(e.target.value);
 // }
 
-
 //submit dom event (form)
 //html code
-{/* <form action="">
+{
+  /* <form action="">
         <label for="name">Name:
             <input type="text" id="name" name="name" autofocus>
         </label><br><br>
@@ -743,7 +655,8 @@
             <input type="password" id="password" name="password" required minlength="4" maxlength="8">
         </label><br><br>
         <input type="submit" value="signup">
-    </form> */}
+    </form> */
+}
 
 // const form = document.querySelector("form");
 // const name = form.querySelector("#name");
@@ -767,13 +680,13 @@
 //     password.value = "";
 // }
 
-
-
 //video dom event
 // html code
-{/* <video width="400" controls>
+{
+  /* <video width="400" controls>
     <source src="video/v.mp4" type="video/mp4">
-</video> */}
+</video> */
+}
 
 // const video = document.querySelector("video");
 // video.addEventListener("canplay", function(){
@@ -800,8 +713,6 @@
 //     console.log("volumechange")
 // });
 
-
-
 //load unload event
 // window.addEventListener("load", function(){
 //     console.log("load");
@@ -810,8 +721,6 @@
 // window.addEventListener("unload", function(){
 //     console.log("unload");
 // });
-
-
 
 //scroll width height event
 // window.addEventListener("scroll", function(){
@@ -824,22 +733,20 @@
 //     console.log(`width: ${width}, height: ${height}`);
 // });
 
-
-
 //toggle event
 // html code
-{/* <details>
+{
+  /* <details>
     <summary>Ruhul Amin</summary>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sapiente aperiam voluptas, esse laudantium atque dolorem explicabo reiciendis cumque aspernatur.</p>
-</details> */}
+</details> */
+}
 
 // const details = document.querySelector("details");
 
 // details.addEventListener("toggle", function(e){
 //     console.log(e.target.open);
 // })
-
-
 
 //mouse event
 // const div = document.querySelector("div");
@@ -878,8 +785,6 @@
 //     console.log("mouseover");
 // });
 
-
-
 //keyboard event
 // const textarea = document.querySelector("textarea");
 
@@ -899,8 +804,6 @@
 
 //     }
 // });
-
-
 
 //focus event
 // const input = document.querySelector("input");
@@ -925,8 +828,6 @@
 //     console.log("focusout");
 // });
 
-
-
 //clipboard event
 // const input = document.querySelector("input");
 // const p = document.querySelector("p");
@@ -943,12 +844,12 @@
 //     p.innerText = "you have paste"
 // });
 
-
-
 //drug event
 // html code
-{/* <div id="div1"></div>
-    <p id="drag1" draggable="true">hi i am Ruhul Amin</p> */}
+{
+  /* <div id="div1"></div>
+    <p id="drag1" draggable="true">hi i am Ruhul Amin</p> */
+}
 
 // const div = document.querySelector("div");
 // const p = document.querySelector("p");
@@ -967,20 +868,18 @@
 //     e.preventDefault();
 // });
 
-
-
 //BOM Location Object
 // html code
-    // <h1>BOM</h1>
-    // <div class="location-div">
-    //     <p></p>
-    //     <p></p>
-    //     <p></p>
-    //     <p></p>
-    //     <p></p>
-    // </div>
+// <h1>BOM</h1>
+// <div class="location-div">
+//     <p></p>
+//     <p></p>
+//     <p></p>
+//     <p></p>
+//     <p></p>
+// </div>
 
-    // <button id="visit-button">visit my website</button>
+// <button id="visit-button">visit my website</button>
 
 // console.clear();
 // const locationDiv =  document.querySelector(".location-div");
@@ -1000,13 +899,10 @@
 // const p5 = locationDiv.children[4];
 // p5.textContent = location.pathname;
 
-
 // const visitButton = document.getElementById("visit-button");
 // visitButton.addEventListener("click", function(){
 //     location.assign("https://www.google.com");
 // });
-
-
 
 //BOM confirm object
 // function deleteSomething(){
@@ -1019,8 +915,6 @@
 //     }
 // }
 // deleteSomething();
-
-
 
 //BOM Prompt Object
 // function welcomeMessage(){
@@ -1041,8 +935,6 @@
 
 // welcomeMessage();
 
-
-
 // const saveButton = document.querySelector(".save-button");
 // const message = document.querySelector(".message");
 
@@ -1053,9 +945,6 @@
 //         message.textContent = ""
 //     }, 2000)
 // }
-
-
-
 
 // const saveButton = document.querySelector(".save-button");
 // const message = document.querySelector(".message");
@@ -1072,12 +961,12 @@
 //     }, 2000)
 // }
 
-
-
 // current time to display
 //html code
-{/* <button class="save-button">Save</button>
-<p class="message"></p> */}
+{
+  /* <button class="save-button">Save</button>
+<p class="message"></p> */
+}
 
 // const saveButton = document.querySelector(".save-button");
 // const message = document.querySelector(".message");
@@ -1106,8 +995,6 @@
 //     return value;
 // }
 
-
-
 // try{
 //     alert("hi everyone");
 //     alert(x);
@@ -1117,18 +1004,18 @@
 //     alert("bye everyone");
 // }
 
-
-
 //using throw same is console.log
 //html code
-{/* <p>enter a number between 5 to 10</p>
+{
+  /* <p>enter a number between 5 to 10</p>
 <input type="text" id="numTextfield">
-<button id="checkButton">check</button> */}
+<button id="checkButton">check</button> */
+}
 
 // document.querySelector("#checkButton").addEventListener("click", function(){
-    
+
 //     const num = document.querySelector("#numTextfield").value;
-    
+
 //     try{
 //         if(num < 5){
 //             throw "input is too low"
@@ -1142,7 +1029,6 @@
 //         console.log(err);
 //     }
 // })
-
 
 //<canvas id="myCanvas" width="400px" height="300px"></canvas>
 // const c = document.getElementById("myCanvas");
@@ -1158,10 +1044,10 @@
 // const centerX = c.width /2;
 // const centerY = c.height /2;
 
-// ctx.beginPath();
-// ctx.arc(centerX,centerY,80,0,2*Math.PI,false);
-// ctx.fillStyle = "red"
-// ctx.fill();
-// ctx.stroke();
+ctx.beginPath();
+ctx.arc(centerX, centerY, 80, 0, 2 * Math.PI, false);
+ctx.fillStyle = "red";
+ctx.fill();
+ctx.stroke();
 
 //ES5 End
